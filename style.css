@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+button{
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 600;
+
+}
+.box1, .box2, .box3{
+    display: flex;
+    justify-content: center;
+}
+h1, h3{
+    text-align: center;
+}
+.box1 button{
+    background-color: darksalmon;
+    
+}
+.box2 button{
+    background-color: rgb(154, 249, 114);
+    
+}
+.box3 button{
+    background-color: rgb(144, 185, 250);
+    
+}
